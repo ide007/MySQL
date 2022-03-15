@@ -37,7 +37,7 @@ CREATE TABLE products (
   FOREIGN KEY (partitions_id) REFERENCES partitions(id) ON UPDATE CASCADE ON DELETE RESTRICT
 ) COMMENT = 'Товары интернет-магазина';
 
--- хотелось приблизится к реальному магазину поэтому ручной ввод
+-- хотелось приблизится к реальному магазину
 
 INSERT INTO products VALUES 
 (1,5,'Кабель силовой АВВГп 3х2.5','Кабель силовой АВВГп 3х2.5. Алюминий. двойная изоляция', 28.4),
