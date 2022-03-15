@@ -174,7 +174,7 @@ CREATE TABLE users (
   surname VARCHAR(255) COMMENT 'Фамилия'
 ) COMMENT = 'Покупатели';
 
--- взял с одной из домашних работ
+-- генератор случайных значений
 
 INSERT INTO users VALUES 
 (1,'soluta','reprehenderit'),
